@@ -1,0 +1,56 @@
+.product-management {
+    margin: 20px;
+}
+
+.add-product, .update-product, .products {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-left: 20px;
+}
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
